@@ -1,11 +1,7 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes.bak
 [debug] About to delete class files:
-[debug] 	scalaImpwithsbt$.class
-[debug] 	scalaImpwithsbt.class
 [debug] We backup class files:
-[debug] 	scalaImpwithsbt$.class
-[debug] 	scalaImpwithsbt.class
 [debug] Registering generated classes:
-[debug] 	scalaImpwithsbt$.class
-[debug] 	scalaImpwithsbt.class
+[debug] 	scala_boilerplate$.class
+[debug] 	scala_boilerplate.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes.bak
