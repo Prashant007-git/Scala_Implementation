@@ -1,4 +1,4 @@
-object Class extends App{
+object class_object extends App{
   //CLASS
   class calculator{
     def add(a:Int,b:Int):Int = a+b
