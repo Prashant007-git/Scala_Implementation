@@ -1,39 +1,39 @@
 [debug] [zinc] IncrementalCompile -----------
 [debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 2 products, 1 sources, 1 libraries
-[debug] current source = Set(${BASE}/src/main/scala/scalaImpwithsbt.scala, ${BASE}/src/main/scala/scala_boilerplate.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/scala_boilerplate.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] previous = Stamps for: 7 products, 3 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/functional_programming.scala, ${BASE}/src/main/scala/scalaImpwithsbt.scala, ${BASE}/src/main/scala/scala_boilerplate.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/functional_programming.scala), unmodified = ...),Set(),Set(),API Changes: Set())
 [debug] 
 [debug] Initial source changes:
 [debug] 	removed: Set()
-[debug] 	added: Set(${BASE}/src/main/scala/scala_boilerplate.scala)
-[debug] 	modified: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/functional_programming.scala)
 [debug] Invalidated products: Set()
 [debug] External API changes: API Changes: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated classes: Set()
+[debug] Initial directly invalidated classes: Set(functional_programming)
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated classes: Set()
-[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/scala_boilerplate.scala)
-[debug] Initial set of included nodes: 
+[debug] All initially invalidated classes: Set(functional_programming)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/functional_programming.scala)
+[debug] Initial set of included nodes: functional_programming
 [debug] compilation cycle 1
 [info] compiling 1 Scala source to C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes ...
 [debug] Getting org.scala-sbt:compiler-bridge_2.13:1.8.0:compile for Scala 2.13.10
-[debug] [zinc] Running cached compiler 6204852b for Scala compiler version 2.13.10
+[debug] [zinc] Running cached compiler 923c569 for Scala compiler version 2.13.10
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes;C:\Users\JD Clothing pvt Ltd\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
 [debug] 	-classpath
 [debug] 	C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes;C:\Users\JD Clothing pvt Ltd\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4.jar
-[debug] Invalidating (transitively) by inheritance from scala_boilerplate...
-[debug] Initial set of included nodes: scala_boilerplate
-[debug] Invalidated by transitive inheritance dependency: Set(scala_boilerplate)
-[debug] Change NamesChange(scala_boilerplate,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName(scala_boilerplate,[Default]), UsedName(!=,[Default]), UsedName(getClass,[Default]), UsedName(eq,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]))) invalidates 1 classes due to The scala_boilerplate has the following regular definitions changed:
-[debug] 	UsedName(synchronized,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(##,[Default]), UsedName(scala_boilerplate,[Default]), UsedName(!=,[Default]), UsedName(getClass,[Default]), UsedName(eq,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(equals,[Default]).
-[debug]   > by transitive inheritance: Set(scala_boilerplate)
+[debug] Invalidating (transitively) by inheritance from functional_programming...
+[debug] Initial set of included nodes: functional_programming
+[debug] Invalidated by transitive inheritance dependency: Set(functional_programming)
+[debug] Change NamesChange(functional_programming,ModifiedNames(changes = UsedName(fun,[Default]), UsedName(pr,[Default]))) invalidates 1 classes due to The functional_programming has the following regular definitions changed:
+[debug] 	UsedName(fun,[Default]), UsedName(pr,[Default]).
+[debug]   > by transitive inheritance: Set(functional_programming)
 [debug]   > 
 [debug]   > 
 [debug]         
@@ -43,5 +43,5 @@
 [debug] Final step, transitive dependencies:
 [debug] 	Set()
 [debug] No classes were invalidated.
-[debug] Scala compilation took 8.1475397 s
+[debug] Scala compilation took 1.3495122 s
 [info] done compiling

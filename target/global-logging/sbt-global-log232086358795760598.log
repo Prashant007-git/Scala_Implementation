@@ -1,0 +1,11 @@
+[debug] > Exec(javac -version, None, None)
+[error] Expected ID character
+[error] Not a valid command: javac (similar: eval)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: javac (similar: javaSource, javaHome, javacOptions)
+[error] javac -version
+[error]      ^
+[debug] > Exec(idea-shell, None, None)
