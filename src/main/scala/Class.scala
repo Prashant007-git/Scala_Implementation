@@ -8,10 +8,10 @@ object Class extends App{
   }
   // OBJECT
   val ob = new calculator
-  println((ob.add(8,9)))
-  println((ob.sub(89,9)))
-  println((ob.mul(9,4)))
-  println((ob.div(81,3)))
+  println(ob.add(8,9))
+  println(ob.sub(89,9))
+  println(ob.mul(9,4))
+  println(ob.div(81,3))
 
   // TRAITS
   trait Animal {
