@@ -12,4 +12,8 @@ object functional_combinators extends App{
   val l2 = List("a", "b", "c")
   val l3 = l1.zip(l2)
   println(l3)
+  // fold()
+  val num2 = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+  val num3 = num2.fold(0)((m: Int, n: Int) => m + n)
+  println(num3)
 }
