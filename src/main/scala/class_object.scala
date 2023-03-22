@@ -12,6 +12,15 @@ object class_object extends App{
   println(ob.sub(89,9))
   println(ob.mul(9,4))
   println(ob.div(81,3))
+  object Timer {
+    var count = 0
+
+    def currentCount(): Long = {
+      count += 6
+      count
+    }
+  }
+  println(Timer.currentCount())
 
   // TRAITS
   trait Animal {

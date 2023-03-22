@@ -1,17 +1,1 @@
-[debug] Packaging C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\scalaimplement_2.13-0.1.0-SNAPSHOT.jar ...
-[debug] Input file mappings:
-[debug] 	functional_programming$.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\functional_programming$.class
-[debug] 	functional_programming$delayedInit$body.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\functional_programming$delayedInit$body.class
-[debug] 	functional_programming.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\functional_programming.class
-[debug] 	scalaImpwithsbt$.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\scalaImpwithsbt$.class
-[debug] 	scalaImpwithsbt.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\scalaImpwithsbt.class
-[debug] 	scala_boilerplate$.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\scala_boilerplate$.class
-[debug] 	scala_boilerplate.class
-[debug] 	  C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\classes\scala_boilerplate.class
-[debug] Done packaging.
+[debug] Jar uptodate: C:\Users\JD Clothing pvt Ltd\Desktop\scala\Projectwithsbt\ScalaImplement\target\scala-2.13\scalaimplement_2.13-0.1.0-SNAPSHOT.jar
