@@ -28,5 +28,33 @@ object scala_operators extends App {
   println("logical and operator:  "+(e&&f))
   println("logical or operator:   "+(e||f))
   println("logical not operator:  "+(e&&(!f)))
+  // ASSIGNMENT OPERATOR
+  val g = 50
+  val h = 40
+  var i = 0
 
+  i = g + h
+  println("simple addition: i = g + h = " + i)
+  i += g
+  println("Add and assignment of i += g = " + i)
+  i -= g
+  println("Subtract and assignment of i -= g = " + i)
+  i *= g
+  println("Multiplication and assignment of i *= g = " + i)
+  i /= g
+  println("Division and assignment of i /= g = " + i)
+  i %= g
+  println("Modulus and assignment of i %= g = " + i)
+
+  // BITWISE OPERATOR
+  val j = 20
+  val k = 18
+  var l = 0
+
+  l = j & k
+  println("Bitwise And of j & k = " + l)
+  l = j | k
+  println("Bitwise Or of j | k = " + l)
+  l = j ^ k
+  println("Bitwise Xor of j ^ k = " + l)
 }
