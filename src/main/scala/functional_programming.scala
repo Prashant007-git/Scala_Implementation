@@ -17,13 +17,12 @@ object functional_programming extends App{
     case _ => println("value is not 1 2 or 3")
   }
 
-  // FOR LOOP
+  //  LOOPS
   val ar = Array(1,4,63,2,55,34)
   for(i <- ar){
     println(i + " is an element of array ar")
   }
 
-  // WHILE LOOP
   var j =0
   while(j<5){
     println("current value of j is : "+ j)
