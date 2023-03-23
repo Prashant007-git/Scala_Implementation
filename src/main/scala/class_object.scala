@@ -20,7 +20,7 @@ object class_object extends App{
       count
     }
   }
-  println(Timer.currentCount())
+  println(Timer.currentCount()) // no need to create instance of the object
 
   // TRAITS
   trait Animal {
